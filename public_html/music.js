@@ -10,3 +10,18 @@ document.getElementById("mybtn").onclick = function()
         document.getElementById("myaudio").pause()
     }
 }
+// Show loading animation.
+// var myaudio = document.getElementById("myaudio")
+//
+// if (myaudio !== undefined) {
+//     myaudio.then(_ => {
+//         // Automatic playback started!
+//         // Show playing UI.
+//         // We can now safely pause video...
+//         myaudio.pause();
+//     })
+//         .catch(error => {
+//             // Auto-play was prevented
+//             // Show paused UI.
+//         });
+// }
