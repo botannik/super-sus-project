@@ -1,4 +1,4 @@
-var
+let
     example = document.getElementById("myCanvas")
     ctx = example.getContext('2d')
 
